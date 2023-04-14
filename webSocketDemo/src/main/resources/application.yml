@@ -1,0 +1,13 @@
+server:
+  port: 8989             #https端口
+#  http:
+#    port: 8990              #http端口
+#  ssl:
+#    key-store: classpath:zomkc.cn.jks
+#    key-store-password:
+#    key-store-type:
+#    enabled: true
+spring:
+  mvc:
+    async:
+      request-timeout: 8000000 # 八千秒
